@@ -1,5 +1,5 @@
 <?php 
-include 'ayar.php'; //Db Bağlantı
+include 'wp-config.php'; //Db Bağlantı
 $say = $_GET['s'];
 $renk = $_GET['r'];
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
